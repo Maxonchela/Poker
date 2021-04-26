@@ -9,7 +9,6 @@ public class ChangeName {
         for(int i=0; i<filesList.length; i++){
             String name = filesList[i].getName();
             filesList[i].renameTo(new File("/Users/max/Desktop/for Poker/imgs" + i + ".png"));
-
         }
     }
 }
